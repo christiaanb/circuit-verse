@@ -1,0 +1,12 @@
+cradle:
+  cabal:
+    - path: "./src"
+      component: "lib:circuit-verse"
+    - path: "./tests/doctests.hs"
+      component: "circuit-verse:doctests"
+    - path: "./tests"
+      component: "circuit-verse:test-library"
+    - path: "./bin/Clashi.hs"
+      component: "circuit-verse:exe:clashi"
+    - path: "./bin/Clash.hs"
+      component: "circuit-verse:exe:clash"
